@@ -1,0 +1,35 @@
+{
+    "name": "light-theme",
+    "displayName": "Light Theme",
+    "description": "This is pure white theme with the best things possible",
+    "version": "1.0.0",
+    "publisher": "Karthik",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "Pure White Theme",
+        "pure",
+        "Pure",
+        "pure white",
+        "Pure White",
+        "Pure White Theme",
+        "pure white theme"
+    ],
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Light Theme-color-theme.json"
+            }
+        ]
+    }
+}
